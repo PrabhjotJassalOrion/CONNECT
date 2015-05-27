@@ -40,6 +40,16 @@ By advancing the adoption of interoperable health IT systems and health informat
             <name>Deployment through GitHub's site deployment plugin</name>
             <url>site/${project.version}</url>
         </site>
+        <repository>
+            <id>artifactory</id>
+            <name>orion-health-releases</name>
+            <url>http://artifactory/artifactory/libs-release-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>artifactory</id>
+            <name>orion-health-snapshots</name>
+            <url>http://artifactory/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
     </distributionManagement>
     <build>
         <pluginManagement>
