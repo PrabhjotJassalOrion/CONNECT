@@ -2,7 +2,7 @@
 
 bundle install --path vendor/bundle
 
-mkdir connect
+[ -d connect ] || mkdir connect
 
 cp ../Product/Production/Deploy/ear/glassfish/target/CONNECT-GF.ear connect/
 
