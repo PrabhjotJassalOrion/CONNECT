@@ -13,7 +13,7 @@ fpm \
   --rpm-user orionConnect --rpm-group orionConnect \
   --prefix /opt \
   --description "Connect" -n "connect" \
-  --version 0.0.1 \
+  --version 4.4.1 \
   --iteration 1 \
   --directories . \
   ./connect
