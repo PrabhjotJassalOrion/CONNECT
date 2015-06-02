@@ -10,7 +10,7 @@ fpm \
   --rpm-os linux -a all \
   --pre-install pre-install.sh \
   -s dir -t rpm \
-  --rpm-user orionConnect --rpm-group orionConnect \
+  --rpm-user orion --rpm-group orion \
   --prefix /opt \
   --description "Connect" -n "connect" \
   --version 4.4.1 \

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-getent group orionConnect &>/dev/null || groupadd -r orionConnect -g 2134 &>/dev/null
-getent passwd orionConnect &>/dev/null || \
-  useradd -r -u 2134 -g orionConnect -d /opt/orionConnect -s /sbin/nologin \
-  -c "connect" orionConnect &>/dev/null
+getent group orion &>/dev/null || groupadd -r orion -g 2134 &>/dev/null
+getent passwd orion &>/dev/null || \
+  useradd -r -u 2134 -g orion -d /opt -s /sbin/nologin \
+  -c "connect" orion &>/dev/null
