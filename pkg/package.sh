@@ -13,8 +13,8 @@ fpm \
   --rpm-user orion --rpm-group orion \
   --prefix /opt \
   --description "Connect" -n "connect" \
-  --version $BUILD_NUMBER \
-  --iteration $RELEASE_VERSION \
+  --version $RELEASE_VERSION \
+  --iteration $BUILD_NUMBER \
   --directories . \
   ./connect
 
